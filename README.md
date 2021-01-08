@@ -1,28 +1,27 @@
-# Social Network
+# The Crisp Social Network
 
-### Course: cs400
-### Semester: Fall 2019
-### Project name: Social Network
-## Team Members:
-1. Ritvik Bhawnani,  lec 002, and rbhawnani@wisc.edu
-2. Fardeen Meeran,   lec 001, and meeran@wisc.edu
-3. Ryan Brown,       lec 002, and rbrown38@wisc.edu
-4. Yash Sukhwani,    lec 001, and sukhwani@wisc.edu
-5. Ayuj Prasad,      lec 001, and prasad22@wisc.edu
+### Running the Application
+```
+java -jar executable.jar
+```
+Use Java Version 11
 
- 
+### Functionality
+1. Click SIGN IN at the Login page. That makes you the Central User and opens your Home page.
 
-## Which team members were on same xteam together?
-NONE
+2. From the Home page, the Central User can:
+ - Change their profile picture 
+ - Add their friends (case sensitive, and automatically creates new user if user by that name does not exist on the network)
+ - Remove their friends
+ - View any user's friends
+ - View mutual friends among two users
+ - Clear their entire network (deletes their account as well as that of their friends)
+ - Import the current status of the Social Network (to .txt)
+ - Export the current status of the Social Network (to .txt)
+ - Make another user the Central User (using Search or by clicking on the user)
 
-
-## Other notes or comments to the grader:
- 1. Sign in page does not require any information. Simply select the SIGN IN button.
- 2. Dan, Robert, and Julie are default friends.
- 3. User can specify names for their import and export files.
- 4. Add and Remove functionality have been implemented.
- 5. Button View Friends: Hides the profile section and displays current friends alongside user functions. 
-    User can now easily add and remove friends and see their changes in real-time.
- 6. Button Friend Network: Displays friends with current user as the central user. 
-    User can easily select the newcentral user from the friends list
- 7. Button Clear Network: Clears all friends (May NOT be all users)
+## Contributors:
+1. Ritvik Bhawnani,   rbhawnani@wisc.edu
+2. Fardeen Meeran,    meeran@wisc.edu
+3. Ryan Brown,        rbrown38@wisc.edu
+4. Ayuj Prasad,       prasad22@wisc.edu
